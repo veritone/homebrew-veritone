@@ -1,6 +1,6 @@
 require "FileUtils"
 
-class tagger < Formula
+class Tagger < Formula
   homepage "https://github.com/veritone/tagger"
 
   v = "1.0.0"
