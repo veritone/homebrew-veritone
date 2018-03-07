@@ -3,10 +3,10 @@ require "FileUtils"
 class Tagger < Formula
   homepage "https://github.com/veritone/tagger"
 
-  v = "1.0.0"
+  v = "1.1.1"
   url "https://github.com/veritone/tagger/releases/download/#{v}/tagger-darwin-amd64"
   version v
-  sha256 "71e65d86a60ec4a38052f56cdfa79a0a9d1495ce83901ac8064720da9f9a2744"
+  sha256 "2f96ac7f9361f7a88f585926d71fa2760f99a73cae6c41af604c0714e61be8ee"
 
   def install
     FileUtils.mv("tagger-darwin-amd64", "tagger")
