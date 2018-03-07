@@ -6,7 +6,7 @@ class Tagger < Formula
   v = "1.0.0"
   url "https://github.com/veritone/tagger/releases/download/#{v}/tagger-darwin-amd64"
   version v
-  sha256 "4af09eTODO:CHANGE_ME0b354a96b8"
+  sha256 "71e65d86a60ec4a38052f56cdfa79a0a9d1495ce83901ac8064720da9f9a2744"
 
   def install
     FileUtils.mv("tagger-darwin-amd64", "tagger")
